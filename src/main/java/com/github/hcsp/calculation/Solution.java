@@ -13,7 +13,7 @@ public class Solution {
         while (true) {
             System.out.println(number++);
             if (number > 10) {
-                break;
+                return;
             }
         }
     }
