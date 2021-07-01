@@ -10,8 +10,8 @@ public class Solution {
     // 例如，number=9，则打印9,10
     // 现在输出的结果和预期不符，请修复此问题
     public static void printNumberTo10(int number) {
+        int temp = number;
         while (true) {
-            int temp = number;
             System.out.println(temp++);
             if (temp > 10) {
                 return;
