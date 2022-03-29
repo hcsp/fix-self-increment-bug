@@ -12,6 +12,7 @@ public class Solution {
     public static void printNumberTo10(int number) {
         while (true) {
             System.out.println(number++);
+
             if (number > 10) {
                 return;
             }
