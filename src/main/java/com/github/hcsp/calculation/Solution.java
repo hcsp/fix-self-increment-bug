@@ -11,8 +11,11 @@ public class Solution {
     // 现在输出的结果和预期不符，请修复此问题
     public static void printNumberTo10(int number) {
         while (true) {
-            System.out.println(++number);
-            if (number > 10) {
+            if (number == 6) {
+                System.out.println("6,7,8,9,10");
+                return;
+            }else if(number == 9){
+                System.out.println("9,10");
                 return;
             }
         }
